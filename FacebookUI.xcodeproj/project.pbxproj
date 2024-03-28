@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		2D4183EA2BB32FC000174926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4183E92BB32FC000174926 /* AppDelegate.swift */; };
 		2D4183EC2BB32FC000174926 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4183EB2BB32FC000174926 /* SceneDelegate.swift */; };
-		2D4183EE2BB32FC000174926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4183ED2BB32FC000174926 /* ViewController.swift */; };
+		2D4183EE2BB32FC000174926 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4183ED2BB32FC000174926 /* HomeViewController.swift */; };
 		2D4183F12BB32FC100174926 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2D4183F02BB32FC100174926 /* Base */; };
 		2D4183F32BB32FC100174926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4183F22BB32FC100174926 /* Assets.xcassets */; };
 		2D4183F62BB32FC100174926 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2D4183F52BB32FC100174926 /* Base */; };
 		2D4184012BB32FC200174926 /* FacebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4184002BB32FC200174926 /* FacebookUITests.swift */; };
 		2D41840B2BB32FC200174926 /* FacebookUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41840A2BB32FC200174926 /* FacebookUIUITests.swift */; };
 		2D41840D2BB32FC200174926 /* FacebookUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41840C2BB32FC200174926 /* FacebookUIUITestsLaunchTests.swift */; };
+		2DE52E0A2BB4100500D8F068 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE52E092BB4100500D8F068 /* StoryCollectionViewCell.swift */; };
+		2DE52E0C2BB546DC00D8F068 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE52E0B2BB546DC00D8F068 /* CustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		2D4183E62BB32FC000174926 /* FacebookUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4183E92BB32FC000174926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D4183EB2BB32FC000174926 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D4183ED2BB32FC000174926 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D4183ED2BB32FC000174926 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2D4183F02BB32FC100174926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D4183F22BB32FC100174926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D4183F52BB32FC100174926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		2D4184062BB32FC200174926 /* FacebookUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D41840A2BB32FC200174926 /* FacebookUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookUIUITests.swift; sourceTree = "<group>"; };
 		2D41840C2BB32FC200174926 /* FacebookUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2DE52E092BB4100500D8F068 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		2DE52E0B2BB546DC00D8F068 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				2D4183E92BB32FC000174926 /* AppDelegate.swift */,
 				2D4183EB2BB32FC000174926 /* SceneDelegate.swift */,
-				2D4183ED2BB32FC000174926 /* ViewController.swift */,
+				2D4183ED2BB32FC000174926 /* HomeViewController.swift */,
 				2D4183EF2BB32FC100174926 /* Main.storyboard */,
+				2DE52E092BB4100500D8F068 /* StoryCollectionViewCell.swift */,
 				2D4183F22BB32FC100174926 /* Assets.xcassets */,
 				2D4183F42BB32FC100174926 /* LaunchScreen.storyboard */,
 				2D4183F72BB32FC100174926 /* Info.plist */,
+				2DE52E0B2BB546DC00D8F068 /* CustomTabBarController.swift */,
 			);
 			path = FacebookUI;
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D4183EE2BB32FC000174926 /* ViewController.swift in Sources */,
+				2DE52E0A2BB4100500D8F068 /* StoryCollectionViewCell.swift in Sources */,
+				2D4183EE2BB32FC000174926 /* HomeViewController.swift in Sources */,
 				2D4183EA2BB32FC000174926 /* AppDelegate.swift in Sources */,
+				2DE52E0C2BB546DC00D8F068 /* CustomTabBarController.swift in Sources */,
 				2D4183EC2BB32FC000174926 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
